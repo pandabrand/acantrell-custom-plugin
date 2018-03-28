@@ -1,0 +1,12 @@
+{
+    "name": "studiofww/acantrell-custom-plugin",
+    "version": "1.0.0",
+    "description": "Custom Plugin for andrewcantrell.com",
+    "homepage": "https://studiofww.com",
+    "license": "MIT",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=5.6",
+        "composers/installers": "^1.0"
+    }
+}
