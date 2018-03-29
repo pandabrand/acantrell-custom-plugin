@@ -124,4 +124,4 @@ add_action( 'init', 'publication_post_type', 0 );
 function acf_google_map_init() {
 	acf_update_setting('google_api_key', 'AIzaSyAy-5P5-TbICxrL2wqMuSWxM3IGhYP4Wjw');
 }
-add_action('acf/init', 'acf_google_map_init');
+add_action('acf/fields/google_map/api', 'acf_google_map_init');
